@@ -1,0 +1,131 @@
+{
+  "name": "fwf-FUTBIn-Best11",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "574a32f3-7a33-4848-83da-c9f7a5206ff7",
+        "testCaseType": "TestCase",
+        "fileName": "UnitTests\\UnitTest_Futbin11_SelectFormation.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d126a86d-54c7-4fe1-8fda-6ed1be7cccf7",
+        "testCaseType": "TestCase",
+        "fileName": "UnitTests\\UnitTest_Futbin11_CheckBest11.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "41608e71-fd8b-4e35-8eec-1a9d10609900",
+        "testCaseType": "TestCase",
+        "fileName": "UnitTests\\UnitTest_Futbin11_ExtractPlayerStatsData.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0247e038-b2b7-406e-a054-537c7f4b570b",
+        "testCaseType": "TestCase",
+        "fileName": "UnitTests\\UnitTest_Futbin11_FilterPlayers.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7ea08a3d-6a5f-4714-aacf-eec786002b94",
+        "testCaseType": "TestCase",
+        "fileName": "UnitTests\\UnitTest_Futbin11_Navigate_To.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9421d1ba-4af8-4278-831c-f18db81dd0cb",
+        "testCaseType": "TestCase",
+        "fileName": "UnitTests\\UnitTest_Futbin11_SelectLeague.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3e35c04d-1540-4d49-a617-4d1f7c145aa4",
+        "testCaseType": "TestCase",
+        "fileName": "UnitTests\\UnitTest_Futbin11_UserInput.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5f11c58a-01e2-4ffc-b54b-e741e582ee9c",
+        "testCaseType": "TestCase",
+        "fileName": "UnitTests\\UnitTest_Futbin11_FilterAndSelectBestPlayers.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d2d2c97f-7aa8-4218-b9c4-b6eee1ed05a6",
+        "testCaseType": "TestCase",
+        "fileName": "UnitTests\\UnitTest_Futbin11_CreateBestTeam.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d0d2d995-f52d-4393-b937-2dfb6ddb3753",
+        "testCaseType": "TestCase",
+        "fileName": "UnitTests\\UnitTest_Futbin11_GetURL_BestTeam.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "174ebdce-60e5-46d4-8295-e8d9ae16621c",
+        "testCaseType": "TestCase",
+        "fileName": "UnitTests\\UnitTest_Futbin11_SendEmailWithBest11URL.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a25fb7c9-3083-4d81-b34e-0c58bf85b264",
+        "testCaseType": "TestCase",
+        "fileName": "UnitTests\\UnitTest_Futbin11_CloseAllApplications.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "a6e406e0-4cfb-4678-b228-b1e54d14cd24",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
